@@ -9,15 +9,14 @@
 /* body{background-color: aqua;} */
 body{ 
   background-color: (249, 249, 251, 1);
-  
-  
 }
+
 
 main{
   box-sizing: border-box;
   border: 1px solid black;
   width: 100%;
-  background-color: aqua;
+  background-color: rgba(249, 249, 249, 1);
   /* set aside right */
   display: flex;
   flex-wrap: wrap;
@@ -137,7 +136,6 @@ img[src$=".svg"]{
 /* Video description */
 
 .description{
-  border: 1px solid black;
   display: inline-block;
   max-width: 871px;
   height: 23px;
@@ -268,6 +266,34 @@ div.rating button img{
 }
 
 
+/* about the video */
+#visualizations{
+  
+  margin-top: 50px;
+}
+.visualizationInfo{
+  
+  margin: 25px 0 0px 100px;
+  display: inline-block;
+  width: 450px;
+  
+  span{
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.aboutVideo{
+  margin: 16px 0 16px 100px;
+  width: 510px;
+  
+  span{
+    color: rgba(81,81,81,1);
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+
 
 /* sidebar element */
 
@@ -280,8 +306,7 @@ div.rating button img{
 .sideElements{
   width: 375px;
   float: right;
-  margin: 45px  0 25px 5px;
-  
+  margin: 45px  0 25px 5px; 
 }
 
 .sidePicture{
