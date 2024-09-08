@@ -6,7 +6,7 @@ Usando o seguinte protótipo do [Figma](https://www.figma.com/design/lrRWUZPKnqM
 
 #### Como o projeto ficou:
 
-![Projeto Finalizado](Brunohfc/trilha-css-desafio02/assets/images/projeto.png)
+![Projeto Finalizado](https://github.com/Brunohfc/trilha-css-desafio02/blob/master/assets/images/projeto.png)
 
 ### Explicação
 
