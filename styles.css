@@ -1,0 +1,320 @@
+*{
+  width: 1440px;
+  font-family: 'Roboto', 'Arial';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body{background-color: aqua;} */
+body{ 
+  background-color: (249, 249, 251, 1);
+  
+  
+}
+
+main{
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 100%;
+  background-color: aqua;
+  /* set aside right */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* select all svg images */
+img[src$=".svg"]{
+  width: 24px;
+  height: 24px;
+}
+
+/* header */
+#header{
+  height: 80px;
+  display: flex;
+  background-color: rgb(248, 248, 248);  
+}
+
+.containerHeader{
+  width: 250px;
+  height: 56px;
+  align-content: center;
+  margin-left: 5px;
+}
+
+.logo{
+  width: 50%;
+  float: left;
+  align-items: center;
+}
+#header > *{
+  margin-top: 10px;
+}
+
+#header .youtube img{
+  width: 90px;
+  height: 20px;
+   
+}
+
+#header .hamburguer img{
+  justify-self: center;
+   
+}
+
+/* search campus */
+.search{
+  display: inline-flex;
+  height: 56px;
+  align-items: center;
+}
+
+.search #searchCampus{
+  margin-left: 30%;
+}
+
+
+.search .lookFor{
+  width: 57px;
+  height: 40px;
+  background-color: rgba(248, 248, 248, 1);
+  border: 1px solid rgba(204, 204, 204, 1);
+  
+}
+
+.search #searchCampus{
+  width: 348px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(204, 204, 204, 1);
+}
+#header .campussearch{
+  width: 404px;
+  height: 40px;
+}
+
+#header .campussearch .search{
+  width: 57px;
+  height: 40px;
+}
+
+/* avatar,bell and video creator */
+
+.contents{
+  
+  display: inline-flex;
+  height: 56px;
+  width: 150px;
+  align-items: center;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.contents .avatar img{
+  width: 34px;
+  height: 34px;
+
+}
+
+/* Video campus */
+.containerVideo{
+  height: 537px;
+  width: 952px;
+  /* border: 3px solid red; */
+  box-sizing: content-box;
+  margin: 50px 0 15px 100px;
+
+
+  .videoStream, img{
+    width: inherit;
+    height: inherit;
+       
+  }
+}
+
+/* Video description */
+
+.description{
+  border: 1px solid black;
+  display: inline-block;
+  max-width: 871px;
+  height: 23px;
+  margin: 0 25px 15px 100px;
+  
+  
+  h4{
+    display: inline-flex;
+    max-width: 90%;
+  }
+}
+
+#miniLogo{
+  
+  width: 190px;
+  height: 42px;
+  display: flex;
+  margin-top: 20px;
+
+  img{
+    margin-right: 5px;
+    width: 42px;
+    height: 42px;
+    padding: 3px;
+  }
+}
+
+#contentChannel{
+  
+  width: 150px;
+  align-self: center;
+  
+
+  h5{
+  
+    display: inline-flex;
+    width: 20px;
+  }
+  p{
+    display: inline-flex;
+    width: 100px;
+  
+    
+  }
+}
+
+/* Button Follow */
+.btnInscrever{
+  margin-left: 50px;
+}
+
+.btnInscrever button{
+  width: 159px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(204, 0, 0, 1);
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Buttons like and deslike */
+.rating {
+  display: flex;
+  width: 140px;
+  height: 30px;
+  padding: 5px;
+  
+  button{
+    border: none;
+    background-color: transparent;
+    width: 25px;
+    height: 30px;
+    margin-left: 40px;
+  }
+
+  span{
+    width: 65px;
+    font-weight: 600;
+    font-size: 14px;
+
+    font-size: 12px;
+    align-content: center;
+    height: inherit;
+  }
+}
+
+div.rating button img{
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  
+}
+
+
+/* Button Share and download */
+.buttons{
+  display: flex;
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  margin-left: 50px;
+  
+}
+
+.buttons button{
+  background-color: transparent;
+  border: none;
+  height: 25px;
+
+  img{
+    vertical-align: middle;
+  }
+}
+
+.buttons span{
+  color: black;
+
+  width: 65px;
+  font-weight: 600;
+  font-size: 14px;
+  font-size: 12px;
+  align-content: center;
+  height: inherit;
+}
+
+
+
+/* sidebar element */
+
+
+.sidePicture img[src$=".png"]{
+  width: 140px;
+  height: 90px;
+}
+
+.sideElements{
+  width: 375px;
+  float: right;
+  margin: 45px  0 25px 5px;
+  
+}
+
+.sidePicture{
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin: 10px;
+  max-width: 95% ;
+
+}
+
+.information{
+  width: 60%;
+  border: 1px solid red;
+  align-content: center;
+}
+
+h6,p{
+  margin: 2px 0 2px 5px;
+  display: inline-block; 
+  max-width: 95%;
+}
+
+p{
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(81,81,81,1);
+}
+
+h6{
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(0,0,0,1);
+}
+
+
